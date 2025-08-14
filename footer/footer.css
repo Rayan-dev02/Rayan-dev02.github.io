@@ -1,0 +1,40 @@
+.rodape{
+    background-color: var(--cor-preto);
+    font-family: 'Fira Sans';
+    padding: 100px 0px;
+}
+
+.rodape-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 260px;   
+    padding: 20px;
+}
+
+.rodape-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape-texto1{
+    max-width: 560px;
+    font-family: 'Fira Sans';
+    font-size: 1.5rem;
+    color: var(--cor-cinza)
+}
+
+.rodape-texto2{
+    font-family: 'Fira Sans';
+    font-size: 1rem;
+    color: var(--cor-cinza)
+}
+
+.rodape-info a{
+    color: var(--cor-branco);
+    font-size: 2rem;
+}
+
+.rodape-direitos{
+    font-size: 1rem;
+}

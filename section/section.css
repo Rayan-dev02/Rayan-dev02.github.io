@@ -1,0 +1,163 @@
+.main-formacao{
+    background-color: #0c0c0d;
+    margin-top: 4rem;
+    position: relative;
+    padding-bottom: 7rem;
+    padding: 20px;
+}
+
+
+.formacao{
+    display: grid;
+    grid-template-columns: 0.5fr 0.9fr;
+    padding-top: 5rem;
+}
+
+
+.principal-formacao{
+    color: black;
+}
+
+
+.principal-formacao-p strong{
+    color: white;
+}
+
+
+.formacao-info-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.formacao-card{
+    flex: 0 1 230px;
+    height: 180px;
+    padding: 20px;
+    font-family: 'Fira Sans';
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    position: relative;
+}
+
+
+.formacao-card p{
+    color: rgb(110, 110, 110);
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+
+.formacao-card h3{
+    color: white;
+}
+
+
+.formacao-card h3::before{
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 20px;
+    background-color: purple;
+    position: absolute;
+    left: -4px;
+}
+
+
+.formacao-card > span{
+    height: 100%;
+    display: flex;
+    align-items: end;
+    color: rgb(110, 110, 110);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.formacao-cursos{
+    margin-top: 4rem;
+}
+
+
+.cursos-intensivos-titulo{
+    color: rgb(110, 110, 110);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: 'Fira Sans';
+    padding-bottom: 1.5rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.cursos-intensivos-titulo img{
+    position: absolute;
+    left: -35px;
+}
+
+.cursos-intensivos-info{
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Fira Sans';
+}
+
+
+.cursos-intensivos-info h3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+
+.cursos-intensivos-info span{
+    color: var(--cor-cinza);   
+}
+
+
+.formacao-idiomas{
+    margin-top: 2rem;
+}
+
+
+.formacao-idiomas-titulo{
+    color: var(--cor-cinza);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: 'Fira Sans';
+    padding-bottom: 1.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.formacao-idiomas-titulo img{
+    position: absolute;
+    left: -35px;
+}
+
+
+.formacao-idiomas-info{
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Fira Sans';
+}
+
+
+.formacao-idiomas-info h3{
+    margin-bottom: 1rem;
+}
+
+
+.formacao-idiomas-info span{
+    color: var(--cor-cinza);   
+}
+
+.formacao-detalhe{
+    position: absolute;
+    bottom: -70px;
+    left: 170px;
+}

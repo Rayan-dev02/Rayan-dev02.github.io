@@ -1,0 +1,25 @@
+/* RESET */
+@import url(./reset/reset.css);
+
+/* HEADER */
+@import url(./header/header.css);
+
+/* MAIN */
+@import url(./main/main.css);
+
+/* SECTION */
+@import url(./section/section.css);
+
+/* FOOTER */
+@import url(./footer/footer.css);
+
+/* UTILITARIOS */
+@import url(./utilitarios/cores.css);
+@import url(./utilitarios/tipografia.css);
+
+
+
+
+
+
+
