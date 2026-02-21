@@ -1,0 +1,16 @@
+/* RESET */
+@import url(./reset/reset.css);
+
+/* GLOBAL */
+@import url(./global/global.css);
+
+/* UTILITARIOS */
+@import url(./utilitarios/cores.css);
+@import url(./utilitarios/font.css);
+
+/* HOME */
+@import url(./home/header.css);
+@import url(./home/banner.css);
+@import url(./home/experiencia.css);
+@import url(./home/formacao.css);
+@import url(./home/footer.css);

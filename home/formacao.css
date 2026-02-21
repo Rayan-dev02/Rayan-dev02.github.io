@@ -1,0 +1,158 @@
+.formacao{
+    padding-top: 80px;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.formacao::after{
+    content: '';
+    display: inline-block;
+    background: url(../07-projeto-portfolio/0701-primeiros-passos/img/detalhe.svg) no-repeat center center;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    bottom: -80px;
+    left: 20px;
+
+}
+
+.formacao__titulo{
+    font-size: 8rem;
+    max-width: 4ch;
+    word-break: break-all;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.formacao__paragrafo{
+    max-width: 40ch;
+    margin-bottom: 70px;
+}
+
+.formacao__lista{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.formacao__card{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.formacao__card h3{
+    margin-top: 10px;
+    flex: 1;
+    margin-bottom: 40px;
+}
+
+.formacao__card h3::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 25px;
+    background: var(--cor-roxo);
+    position: absolute;
+    left: -4px;
+}
+
+
+.formacao__cursos h3{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.formacao__cursos h3::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../07-projeto-portfolio/0701-primeiros-passos/img/cursos.svg) no-repeat center center;
+    position: absolute;
+    left: -40px;
+}
+
+.formacao__cursos ul{
+    display: grid;
+    gap: 10px;
+    list-style: none;
+}
+
+.formacao__cursos ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacao__idiomas{
+    margin-top: 50px;
+}
+
+.formacao__idiomas h3{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.formacao__idiomas h3::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../07-projeto-portfolio/0701-primeiros-passos/img/idiomas.svg) no-repeat center center;
+    position: absolute;
+    left: -40px;
+}
+
+.formacao__idiomas ul{
+    display: grid;
+    gap: 10px;
+    list-style: none;
+}
+
+@media(max-width: 800px){
+
+    .formacao{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .formacao__titulo{
+        font-size: 3rem;
+        max-width: 100%;
+        color: var(--cor-branco);
+    }
+
+    .formacao__idiomas{
+        padding-top: 30px;
+    }
+
+    .formacao__cursos h3::before{
+        left: 0;
+        top: -30px;
+    }
+
+    .formacao__idiomas h3::before{
+        left: 0;
+        top: -30px;
+    }
+}
+
+@media(max-width: 500px){
+    .formacao__titulo{
+        font-size: 2.5rem;
+    }
+
+    .formacao__card{
+        flex: 1 1 100px;
+    }
+}

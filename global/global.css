@@ -1,0 +1,15 @@
+.content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.borderR1{
+    border-radius: 5px;
+}

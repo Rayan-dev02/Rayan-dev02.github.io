@@ -1,0 +1,22 @@
+.rodape{
+    padding: 120px 20px 60px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.rodape__contato{
+    display: grid;
+    gap: 15px;
+}
+
+.rodape span{
+    grid-column: 1 / -1;
+}
+
+@media(max-width: 700px){
+    .rodape{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,93 @@
+.font1-t1{
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+
+.font1-t2{
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+}
+
+.font1-t3{
+    font-family: 'Poppins';
+    font-size: 1.7rem;
+}
+
+.font1-t4{
+    font-family: 'Poppins';
+    font-size: 3rem;
+}
+
+.font1-t5{
+    font-family: 'Poppins';
+    font-size: 4.5rem;
+}
+
+
+@media(max-width: 1000px){
+.font1-t1{
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+
+.font1-t2{
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+}
+
+.font1-t3{
+    font-family: 'Poppins';
+    font-size: 1.3em;
+}
+
+.font1-t4{
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+}
+
+.font1-t5{
+    font-family: 'Poppins';
+    font-size: 4rem;
+}
+}
+
+@media(max-width: 800px){
+    .font1-t4{
+    font-family: 'Poppins';
+    font-size: 2rem;
+}
+}
+
+@media(max-width: 500px){
+    .font1-t1{
+        font-family: 'Poppins';
+        font-size: .9rem;
+    }
+
+    .font1-t2{
+        font-family: 'Poppins';
+        font-size: 1rem;
+    }
+
+    .font1-t3{
+        font-family: 'Poppins';
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 400px){
+
+    .font1-t1{
+        font-family: 'Poppins';
+        font-size: .8rem;
+    }
+
+    .font1-t2{
+        font-family: 'Poppins';
+        font-size: .9rem;
+    }
+    .font1-t3{
+        font-family: 'Poppins';
+        font-size: 1rem;
+    }
+}

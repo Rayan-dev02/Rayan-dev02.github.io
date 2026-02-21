@@ -1,0 +1,32 @@
+:root{
+    --cor-branco:#fff;
+    --cor-preto:#000;
+    --cor-pretoE:#141414;
+    --cor-cinza:#b2b2b2;
+    --cor-creme:#F5F5F5;
+    --cor-roxo:#964cff;
+}
+
+.cor-branco{
+    color: var(--cor-branco);
+}
+
+.cor-preto{
+    color: var(--cor-preto);
+}
+
+.cor-cinza{
+    color: var(--cor-cinza);
+}
+
+.bg-creme{
+    background-color: var(--cor-creme);
+}
+
+.bg-preto{
+    background-color: var(--cor-preto);
+}
+
+.bg-pretoE{
+    background-color: var(--cor-pretoE);
+}
