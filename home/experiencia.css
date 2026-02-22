@@ -95,7 +95,7 @@
     .experiencia__data{
         text-align: start;
         position: initial;
-        order: 2 ;
+        order: 2;
         font-weight: 600;
     }
 
@@ -130,3 +130,5 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* teste */
